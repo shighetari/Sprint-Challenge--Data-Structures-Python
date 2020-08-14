@@ -65,6 +65,9 @@ for name_2 in names_2:
     if bst.contains(name_2):
         duplicates.append(name_2)
 
+# for name in names_1:
+#     if name in names_2:
+#         duplicates.append(name)
 
 end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
